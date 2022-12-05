@@ -1,0 +1,113 @@
+body
+{
+    background: #007B5E;
+}
+#contact-us{
+	background: lightgray;
+	margin-bottom: 2px;
+	padding-bottom: 70px;
+}
+h1
+{
+	color:#000;
+	margin:40px 0 60px 0;
+	font-weight:400;
+}
+
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+
+
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 120px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#007B5E;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 1.0s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+
+/*our-team-main*/
+.map{
+	background:lightgray;
+	padding: 100px;
+	
+}
+.map h2{
+	color: #007B5E;
+}
+
+.map p{
+	padding-top: 30px;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.college-address{
+	margin-bottom: 40px;
+	
+}
+/* .college-address h2{
+	color: #007B5E;
+	font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+} */
