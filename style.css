@@ -1,5 +1,5 @@
 body{
-    background: #007B5E;
+    background: #ffffff;
 }
 .toparea{
     background: #007B5E;
@@ -14,24 +14,30 @@ body{
     color: #fff;
     font-weight: 700;
 }
-.container-fluid{
+.banner{
     width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+    
+    
     background: #fff;
-
 }
-.container-fluid img{
-    max-width: 100%;
-    height:auto;
+.titlearea{
+    background: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+.titlearea img{
+    width: 100%;
+    
 }
 .menuarea{
-    
-    margin: auto;
-    padding: 2px 0;
+    background-color: #ffffff;
+    padding: 0 30px;
+    padding-bottom: 20px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; 
 }
 .menuarea ul li{
     list-style: none;
@@ -49,17 +55,17 @@ body{
     content: '';
     height: 3px;
     width: 0;
-    background: #0456a7;
+    background: #007b5e;
     position: absolute;
-    left: 5px;
+    left: 0;
     bottom: 5px;
     transition: 1.0s;
 }
 .menuarea ul li:hover::after{
-    width: 78%;
+    width: 90%;
 }
 .slidearea{
-    margin-top: 2px;
+    
     background: #fff;
 }
 .principal-message{
@@ -101,6 +107,12 @@ width: 25%;
 }
 .principal-message .card{
     margin-top: -100px;
+}
+.principal-message .card img{
+    /* padding-left: 55px; */
+    width: 80%;
+    /* position: absolute;
+    transition: 0.5s; */
 } 
 #p1{
     text-align: center;
@@ -127,11 +139,13 @@ width: 25%;
 
 pb-5 {
     padding: 60px 0;
+    padding-top: 50px;
 }
 
 pb-5 .section-title {
     text-align: center;
     color: #007b5e;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
