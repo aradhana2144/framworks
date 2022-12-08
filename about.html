@@ -8,39 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <title>about</title>
+    <title>GWP</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style-about.css"/>
+    <link rel="stylesheet" type="text/css" href="animate.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style type="text/css">
-      .about{
-        background: #fff;
-        text-align: justify;
-        font-weight: 400;
-        font-size: 18px;
-
-      }
-      .heading{
-          padding: 5px 0 5px 8px;
-          /* border-bottom: 5px solid #007B5E; */
-          font-weight: bold;
-          font-size: 22px;
-          text-transform: uppercase;
-          font-family: "Montserrat", sans-serif;
-      }
-    .heading::after{
-      content: '';
-      height: 3px;
-      width: 0;
-      background: #47dab7;
-      position: absolute;
-      left: 20px;
-      bottom: 4px;
-      transition: 1.0s;
-    }
-   .heading:hover::after{
-      width: 25%;
-    }
-    </style>
   </head>
   <body>
     <header class="toparea">
@@ -61,18 +33,18 @@
         </div>
     </header>
     <section>
-        <div class="container-fluid">
-            <div class="row titletop">
+        <div class="container banner">
+            <div class="row titlearea">
                 <div class="col-md-1">&nbsp;&nbsp;</div>
                 <div class="col-md-10">
-                  <img src="banner.jpg">
+                  <img class="banner" src="banner.jpg">
                 </div>
               <div class="col-md-1">&nbsp;&nbsp;</div>
             </div>
         </div>
     </section>
-    <section class="menuarea">
-        <div class="container-fluid">
+   <section class="menuarea">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -87,7 +59,7 @@
                               <a class="nav-link" href="index.html"><i class="fa-solid fa-house-chimney"></i>Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">About</a>
+                              <a class="nav-link" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">Departments</a>
@@ -119,21 +91,21 @@
     </section> 
     <!-- about page -->
     <section>
-      <div class="container-fluid about">
+      <div class="container about">
           <div class="row">
-            <img src="slider-1.jpg" alt="">
+            <img src="slider-2.jpg" alt="">
           </div>
           <div class="row">
-            <div class="col-md-12 bg-white">
-              <h3 class="heading">
+            <div class="col-md-8 col-sm-12 bg-white">
+              <h1 class="heading">
                 ABOUT GWP-JAMSHEDPUR
-              </h3>
+              </h1>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12 bg-white">
-              <p>Government Women's Polytechnic Jamshedpur is came into existence in the year 1998. Situtated in Gamharia, Sareikela-Kharsawn district of Jharkhand near Jamshedpur. The Institution is offering Diploma Programmes in Computer Science Engineering, Electronics & Communication Engineering, Mechanical Engineering & Architecture Engineering. Presently the Institution building is in the 9 acres of land where complete building has developed desired quality and standard institution also has qualified faculty and other resources to suit with fast changing technological innovation and inventions.<br/><br/>
-              GWP Jamshedpur takes extreme pride in the fact that it has been occupying a unique position in imparting technological education to Indian Women youth. Since its inception, the institute has had a vision to provide quality technical education and to facilitate scientific and technological research, coupled with a mission to develop human potential to its zenith</p>
+              <p><b>Government Women's Polytechnic Jamshedpur</b> is came into existence in the year<b> 1998</b>. Situtated in <b>Gamharia, Sareikela-Kharsawn district</b> of Jharkhand near Jamshedpur. The Institution is offering Diploma Programmes in <b>Computer Science Engineering, Electronics & Communication Engineering, Mechanical Engineering & Architecture Engineering</b>. Presently the Institution building is in the 9 acres of land where complete building has developed desired quality and standard institution also has qualified faculty and other resources to suit with fast changing technological innovation and inventions.<br/><br/>
+              <b>GWP Jamshedpur</b> takes extreme pride in the fact that it has been occupying a unique position in imparting technological education to Indian Women youth. Since its inception, the institute has had a vision to provide quality technical education and to facilitate scientific and technological research, coupled with a mission to develop human potential to its zenith</p>
             </div>
           </div>
       </div>
